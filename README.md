@@ -1,4 +1,4 @@
-# Bookmarklets
+# Bookmarklet Workshop
 
 A collection of JavaScript bookmarklets I wrote.
 

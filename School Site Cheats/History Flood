@@ -1,0 +1,1 @@
+javascript:/// History Flooder //%0Ajavascript:var num=prompt("History flood amount:")%3Bdone=false%3Bx=window.location.href%3Bfor (var i=1%3B i<=num%3B i++)%7Bhistory.pushState(0, 0, i==num%3Fx:i.toString())%3Bif(i==num)%7Bdone=true%7D%7Dif(done===true)%7Balert("History flood successful! "+window.location.href+" now appears in your history "+num+(num==1%3F" time.":" times."))%7D
